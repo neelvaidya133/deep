@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../../assets/rere.svg";
+import Img from "../../assets/jojo.png";
 import {
   MainContainer,
   InfoContainer,
@@ -14,7 +14,7 @@ const Home = () => {
     <>
       <MainContainer>
         <ImageContainer>
-          <img style={{ height: "300px", width: "100%" }} src={Img} alt="" />
+          <img style={{ height: "500px", width: "500px" }} src={Img} alt="" />
         </ImageContainer>
         <InfoContainer>
           <Title>
@@ -23,16 +23,13 @@ const Home = () => {
           <Content>
             <p>
               lorem ipsum dolor sit amet, consectet lorem ipsum dolor sit amet
-              lorem ipsum dolor sit ametlorem ipsum dolor sit amet
+              lorem ipsum dolor sit ametlorem ipsum dolor sit amet lorem ipsum
+              dolor sit amet, consectet lorem ipsum dolor sit amet lorem ipsum
+              dolor sit ametlorem ipsum dolor sit amet
             </p>
           </Content>
           <BTN>
-            <BtnWrap>
-              <a href=""> Free Consultancy </a>
-            </BtnWrap>
-            <BtnWrap>
-              <a href=""> Contact Now </a>
-            </BtnWrap>
+            <a href=""> Free Consultancy </a>
           </BTN>
         </InfoContainer>
       </MainContainer>

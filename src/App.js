@@ -5,8 +5,10 @@ import Home from "./components/Pages/Home";
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Home />
+      <div style={{ padding: "0rem 3rem" }}>
+        <Navbar />
+        <Home />
+      </div>
     </>
   );
 };
